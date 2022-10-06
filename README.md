@@ -1,0 +1,1 @@
+This will be my first project completed from The Odin Project with nothing more than directions.
