@@ -58,20 +58,23 @@ body {
     color: #E5E7EB;
 }
 
-#header .bottom .left-side h1 {
+#header .bottom .left-side .content h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-#header .bottom .left-side button {
+#header .bottom .left-side .content p {margin: 0; padding: 0;}
+
+#header .bottom .left-side .content button {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: bolder;
     background-color: #235896;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 0.5em 2em;
+    margin: 0.5em 0;
 }
 
 #header .bottom .right-side img {width: 100%; height: 100%;}
