@@ -25,7 +25,6 @@ body {
 
 #header .left-side,
 #header .right-side {
-    width: 40em;
     flex: 1 1 0;
 }
 
@@ -51,11 +50,12 @@ body {
 #header .top .right-side a {text-decoration: none; color: #E5E7EB;}
 
 #header .bottom .left-side,
-#header .bottom .right-side {height: 15em;}
+#header .bottom .right-side {margin-bottom: 2em; overflow: hidden; height: 250px;}
 
 #header .bottom .left-side {
     font-size: 18px;
     color: #E5E7EB;
+    margin-right: 15px;
 }
 
 #header .bottom .left-side .content h1 {
@@ -77,4 +77,5 @@ body {
     margin: 0.5em 0;
 }
 
+#header .bottom .right-side {margin-left: 15px;}
 #header .bottom .right-side img {width: 100%; height: 100%;}
