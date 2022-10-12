@@ -100,9 +100,9 @@ body {
 #information .bottom img,
 #information .bottom p {width: 75%;}
 
-#information .bottom img {min-height: 50%;}
+#information .bottom img {height: 50%;}
 
-#information .bottom p {min-height: 25%;}
+#information .bottom p {height: 25%;}
 
 #information .bottom .image {flex-direction: column; align-items: center;}
 
