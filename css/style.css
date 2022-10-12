@@ -3,13 +3,12 @@ body {
     margin: 0;
 }
 
+/* Header Section */
 #header,
 #header .top,
 #header .bottom,
 #header .left-side,
-#header .right-side {
-    display: flex;
-}
+#header .right-side {display: flex;}
 
 #header {
     flex-direction: column;
@@ -58,7 +57,7 @@ body {
 
 #header .bottom .left-side .content h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -67,7 +66,7 @@ body {
 #header .bottom .left-side .content button {
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: 900;
     background-color: #235896;
     border: none;
     border-radius: 10px;
@@ -77,3 +76,32 @@ body {
 
 #header .bottom .right-side {margin-left: 15px;}
 #header .bottom .right-side img {width: 100%; height: 100%;}
+
+/* Second Section */
+#information,
+#information .top,
+#information .bottom,
+#information .bottom .image {display: flex;}
+
+#information {
+    flex-direction: column; 
+    margin: 0 20em;
+    padding-bottom: 20em;
+}
+
+#information .top,
+#information .bottom {text-align: center;}
+
+#information .top h1 {font-size: 36px; font-weight: 900;}
+
+#information .bottom img,
+#information .bottom p {width: 75%; min-height: 75%}
+
+#information .bottom .image {
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+#information .top h1,
+#information .bottom .image {flex: 1 1 0; overflow: hidden;}
