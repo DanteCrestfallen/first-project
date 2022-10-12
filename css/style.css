@@ -95,15 +95,41 @@ body {
 
 #information .top h1 {font-size: 36px; font-weight: 900;}
 
-#information .bottom img,
-#information .bottom p {width: 75%; min-height: 75%}
+#information .bottom {padding-bottom: 10em;}
 
-#information .bottom .image {
-    flex-direction: column; 
-    align-items: center;
-    min-height: 5em;
-}
+#information .bottom img,
+#information .bottom p {width: 75%;}
+
+#information .bottom img {min-height: 75%;}
+
+#information .bottom .image {flex-direction: column; align-items: center;}
 
 #information .top h1,
 #information .bottom .image {flex: 1 1 0; overflow: auto;}
 
+/* Third Section */
+#quotes,
+#quotes .quote,
+#quotes .quote p,
+#quotes .quote p .quote-message,
+#quotes .quote p .quote-author {display: flex;}
+
+#quotes {
+    background-color: #E5E7EB;
+    border: 10em 20em;
+    padding: 10em 15em;
+    height: 20em;
+}
+
+#quotes .quote {flex: 1 1 0; overflow: auto;}
+
+#quotes .quote p {flex-direction: column;}
+
+#quotes .quote p .quote-message {
+    justify-content: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quotes .quote p .quote-author {justify-content: flex-end; font-weight: 900;}
