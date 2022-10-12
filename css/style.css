@@ -13,7 +13,8 @@ body {
 #header {
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0 15em;
+    border: 0 15em;
+    padding: 0 10em;
 }
 
 #header .top {margin-top: 1em;}
@@ -85,8 +86,8 @@ body {
 
 #information {
     flex-direction: column; 
-    margin: 0 20em;
-    padding-bottom: 10em;
+    border: 0 20em;
+    padding: 0 15em;
 }
 
 #information .top,
