@@ -22,7 +22,7 @@ body {
 #header .left-side,
 #header .right-side {
     margin-bottom: 10em; 
-    overflow: hidden; 
+    overflow: auto; 
     flex: 1 1 0;
 }
 
@@ -101,8 +101,9 @@ body {
 #information .bottom .image {
     flex-direction: column; 
     align-items: center;
-    padding-bottom: 5em;
+    min-height: 5em;
 }
 
 #information .top h1,
-#information .bottom .image {flex: 1 1 0; overflow: hidden;}
+#information .bottom .image {flex: 1 1 0; overflow: auto;}
+
