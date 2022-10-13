@@ -13,7 +13,6 @@ body {
 #header {
     flex-direction: column;
     background-color: #1F2937;
-    border: 0 15em;
     padding: 0 10em;
 }
 
@@ -68,7 +67,7 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 900;
-    background-color: #235896;
+    background-color: #3882F6;
     border: none;
     border-radius: 10px;
     padding: 0.5em 2em;
@@ -81,17 +80,14 @@ body {
 /* Second Section */
 #information,
 #information .top,
+#information .top h1,
 #information .bottom,
 #information .bottom .image {display: flex;}
 
-#information {
-    flex-direction: column; 
-    border: 0 20em;
-    padding: 0 15em;
-}
+#information {flex-direction: column; padding: 0 10em;}
 
 #information .top,
-#information .bottom {text-align: center;}
+#information .bottom {text-align: center; padding: 0 5em;}
 
 #information .top h1 {font-size: 36px; font-weight: 900;}
 
@@ -118,12 +114,15 @@ body {
 
 #quotes {
     background-color: #E5E7EB;
-    border: 10em 20em;
-    padding: 10em 15em;
+    padding: 10em 10em;
     height: 20em;
 }
 
-#quotes .quote {flex: 1 1 0; overflow: auto;}
+#quotes .quote {
+    padding: 0 5em;
+    flex: 1 1 0; 
+    overflow: auto;
+}
 
 #quotes .quote p {flex-direction: column;}
 
