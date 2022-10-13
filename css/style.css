@@ -114,12 +114,12 @@ body {
 
 #quotes {
     background-color: #E5E7EB;
-    padding: 10em 10em;
-    height: 20em;
+    padding: 5em 10em;
+    height: 15em;
 }
 
 #quotes .quote {
-    padding: 0 5em;
+    margin: 0em 5em;
     flex: 1 1 0; 
     overflow: auto;
 }
