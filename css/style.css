@@ -89,7 +89,11 @@ body {
 #information .top,
 #information .bottom {text-align: center; padding: 0 5em;}
 
-#information .top h1 {font-size: 36px; font-weight: 900;}
+#information .top h1 {
+    font-size: 36px; 
+    font-weight: 900;
+    justify-content: center;
+}
 
 #information .bottom {padding-bottom: 5em;}
 
