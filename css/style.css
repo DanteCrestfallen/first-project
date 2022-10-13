@@ -64,9 +64,9 @@ body {
 #header .bottom .left-side .content p {margin: 0; padding: 0;}
 
 #header .bottom .left-side .content button {
-    color: #E5E7EB;
     font-size: 18px;
     font-weight: 900;
+    color: #E5E7EB;
     background-color: #3882F6;
     border: none;
     border-radius: 10px;
@@ -134,3 +134,50 @@ body {
 }
 
 #quotes .quote p .quote-author {justify-content: flex-end; font-weight: 900;}
+
+/* Fourth Section */
+#sign-up,
+#sign-up .message,
+#sign-up .button {display: flex;}
+
+#sign-up {
+    margin: 10em 10em;
+    border-radius: 10px;
+    align-items: center;
+    height: 10em;
+}
+
+#sign-up .message,
+#sign-up .button {overflow: auto;}
+
+#sign-up .message {
+    flex-direction: column;
+    flex: 3 1 0;
+    margin-left: 10em;
+    height: 100%;
+    justify-content: center;
+}
+
+#sign-up .button {
+    flex: 1 1 0;
+    margin-right: 10em;
+    justify-content: flex-end;
+}
+
+#sign-up,
+#sign-up .button button {background-color: #3882F6}
+
+#sign-up .message,
+#sign-up .message h1,
+#sign-up .button button {color: #E5E7EB;}
+
+#sign-up .message h1 {margin: 0; padding: 0;}
+
+#sign-up .button button {
+    font-size: 18px;
+    font-weight: 900;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    margin: 0.5em 0;
+}
